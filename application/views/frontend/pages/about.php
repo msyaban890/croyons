@@ -98,7 +98,7 @@
                             </ul>
                         </div>
                         <div class="bread-title">
-                            <h2>About Company</h2>
+                            <h2>Tentang Croyons</h2>
                         </div>
                     </div>
                 </div>
