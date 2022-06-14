@@ -43,10 +43,10 @@
                 </div>
                 <div class="custom-nav" role="navigation">
                     <ul class="nav-list">
-                        <li class="sbmenu">
+                        <li class="nav-list onepge">
                             <a href="<?= site_url(''); ?>" class="menu-links">Home</a>
                         </li>
-                        <li class="sbmenu">
+                        <li class="nav-list onepge">
                             <a href="<?= site_url('about'); ?>" class="menu-links">About</a>
                             <!-- <div class="nx-dropdown">
                                 <div class="sub-menu-section">
@@ -98,42 +98,42 @@
                             </div> -->
                         </li>
                         <li class="sbmenu">
-                            <a href="" class="menu-links">Solusi dan Layanan</a>
+                            <a href="<?= site_url('solusi'); ?>" class="menu-links">Solusi dan Layanan</a>
                             <div class="nx-dropdown">
                                 <div class="sub-menu-section">
                                     <div class="container">
                                         <div class="sub-menu-center-block">
                                             <div class="sub-menu-column">
+                                                <!-- <ul>
+                                                </ul> -->
+                                            </div>
+                                            <div class="sub-menu-column">
                                                 <ul>
+                                                    <li><a href="#">SISTEM SOLUTION</a></li>
+                                                    <li><a href="<?= site_url('jasamob'); ?>">Jasa Pembuatan Mobile Apps</a> </li>
+                                                    <li><a href="<?= site_url('jasaweb'); ?>">Jasa Pembuatan Website</a></li>
+                                                    <li><a href="<?= site_url('jasasistem'); ?>">Jasa Pembuatan Sistem</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="sub-menu-column">
+                                                <ul>
+                                                    <li><a href="#">DIGITAL SOLUTION</a></li>
                                                     <li><a href="<?= site_url('jasaseo'); ?>">Jasa SEO Website</a></li>
-                                                    <li><a href="typography.html">Typography</a></li>
-                                                    <li><a href="button.html">Buttons</a></li>
-                                                    <li><a href="locations.html">Office Location</a></li>
+                                                    <li><a href="<?= site_url('campaign'); ?>">Campaign Development</a></li>
+                                                    <li><a href="<?= site_url('onlinerep'); ?>">Online Reputation Management</a></li>
+                                                    <li><a href="<?= site_url('influencer'); ?>">Infuencer Management</a></li>
+                                                    <li><a href="<?= site_url('personalbrand'); ?>">Personal Branding</a></li>
+                                                    <li><a href="<?= site_url('sosmedmanagement'); ?>">Sosial Media Manegement</a></li>
                                                 </ul>
                                             </div>
                                             <div class="sub-menu-column">
                                                 <ul>
-                                                    <li><a href="faq.html">FAQs</a> </li>
-                                                    <li><a href="tabs.html">Tabs</a></li>
-                                                    <li><a href="error.html">404 Page</a></li>
-                                                    <li><a href="gradients.html">Background Gradients</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="sub-menu-column">
-                                                <ul>
-                                                    <li><a href="header-v1.html">Header v1</a></li>
-                                                    <li><a href="header-v2.html">Header v2</a></li>
-                                                    <li><a href="header-v3.html">Header v3</a></li>
-                                                    <li><a href="header-v4.html">Header v4</a></li>
-                                                    <li><a href="footer-design.html">Footer</a></li>
-                                                </ul>
-                                            </div>
-                                            <div class="sub-menu-column">
-                                                <ul>
-                                                    <li><a href="hover-animation.html">Hover Animation</a></li>
-                                                    <li><a href="popup-modal.html">Popup Modal</a></li>
-                                                    <li><a href="lists.html">Lists</a></li>
-                                                    <li><a href="bootstrap-components.html">Bootstrap Components</a></li>
+                                                    <br>
+                                                    <br>
+                                                    <li><a href="<?= site_url('intmarket'); ?>">Internet Marketing</a> </li>
+                                                    <li><a href="<?= site_url('boostersosmed'); ?>">Booster Sosial Media</a></li>
+                                                    <li><a href="<?= site_url('buzzer'); ?> gradients.html">Buzzer Management</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -141,9 +141,9 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="sbmenu rpdropdown">
-                            <a href="#" class="menu-links">Portfolio</a>
-                            <div class="nx-dropdown menu-dorpdown">
+                        <li class="nav-list onepge">
+                            <a href="<?= site_url('client'); ?>" class="menu-links">ClIENT</a>
+                            <!-- <div class="nx-dropdown menu-dorpdown">
                                 <div class="sub-menu-section">
                                     <div class="sub-menu-center-block">
                                         <div class="sub-menu-column smfull">
@@ -157,11 +157,11 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </li>
-                        <li class="sbmenu rpdropdown">
-                            <a href="#" class="menu-links">Blog</a>
-                            <div class="nx-dropdown menu-dorpdown">
+                        <li class="nav-list onepge">
+                            <a href="<?= site_url('contact'); ?>" class="menu-links">CONTACT</a>
+                            <!-- <div class="nx-dropdown menu-dorpdown">
                                 <div class="sub-menu-section">
                                     <div class="sub-menu-center-block">
                                         <div class="sub-menu-column smfull">
@@ -175,17 +175,17 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </li>
                     </ul>
                     <!-- mobile + desktop - sidebar menu- dark mode witch and button -->
                     <ul class="nav-list right-end-btn">
-                        <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-round- btn-br bg-btn2"><i class="fas fa-bars"></i></a></li>
-                        <li class="hidemobile"><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li>
+                        <!-- <li class="hidemobile"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-round- btn-br bg-btn2"><i class="fas fa-bars"></i></a></li> -->
+                        <!-- <li class="hidemobile"><a href="get-quote.html" class="btn-br bg-btn3 btshad-b2 lnk">Request A Quote <span class="circle"></span></a> </li> -->
                         <li class="hidedesktop darkmodeswitch">
-                            <div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox" id="niwax" /> <span class="slider round"></span> </label> </div>
+                            <!-- <div class="switch-wrapper"> <label class="switch" for="niwax"> <input type="checkbox" id="niwax" /> <span class="slider round"></span> </label> </div> -->
                         </li>
-                        <li class="hidedesktop"><a data-bs-toggle="offcanvas" href="#offcanvasExample" class="btn-round- btn-br bg-btn2"><i class="fas fa-bars"></i></a></li>
+                        <li class="hidedesktop"><a data-bs-toggle="offcanvas" href="#offcanvasExample"></a></li>
                         <li class="navm- hidedesktop"> <a class="toggle" href="#"><span></span></a></li>
                     </ul>
                 </div>
@@ -195,56 +195,11 @@
             <nav id="main-nav">
                 <ul class="first-nav">
                     <li>
-                        <a href="#">Home</a>
-                        <ul>
-                            <li>
-                                <a href="#">Multi-Page Demo</a>
-                                <ul>
-                                    <li><a href="digital-agency.html">Digital Agency</a></li>
-                                    <li><a href="digital-agency-v2.html">Digital Agency V2</a></li>
-                                    <li><a href="digital-agency-glassmorphism.html">Digital Agency V3</a></li>
-                                    <li><a href="web-design-agency.html">Web Design Agency</a></li>
-                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
-                                    <li><a href="lead-generation.html">Lead Generation Agency</a></li>
-                                    <li><a href="landing-page-1.html">Landing Page V1</a></li>
-                                    <li><a href="landing-page-2.html">Landing Page V2</a></li>
-                                    <li><a href="freelance-portfolio.html">Freelance Portfolio</a></li>
-                                    <li><a href="app-development.html">App Development Agency</a></li>
-                                    <li><a href="minimal-portfolio.html">Minimal Portfolio</a></li>
-                                    <li><a href="creative-agency.html">Creative Agency</a></li>
-                                    <li><a href="branding-agency.html">Branding Agency</a></li>
-                                    <li><a href="modern-agency.html">Modern Agency</a></li>
-                                    <li><a href="business-and-startup.html">Business & Startup</a></li>
-                                    <li><a href="graphic-studio.html">Graphic Studio</a></li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="#">One-Page Demo</a>
-                                <ul>
-                                    <li><a href="digital-agency-onepage.html">Digital Agency</a></li>
-                                    <li><a href="digital-agency-dark-onepage.html">Digital Agency Dark</a></li>
-                                    <li><a href="web-design-agency-onepage.html">Web Design Agency</a></li>
-                                    <li><a href="web-design-agency-dark-onepage.html">Web Design Agency Dark</a></li>
-                                    <li><a href="digital-marketing-onepage.html">Digital Marketing</a></li>
-                                    <li><a href="digital-marketing-dark-onepage.html">Digital Marketing Dark</a></li>
-                                    <li><a href="lead-generation-onepage.html">Lead Generation Agency</a></li>
-                                    <li><a href="lead-generation-dark-onepage.html">Lead Generation Agency Dark</a></li>
-                                    <li><a href="freelance-portfolio-onepage.html">Freelance Portfolio</a></li>
-                                    <li><a href="freelance-portfolio-dark-onepage.html">Freelance Portfolio Dark</a></li>
-                                    <li><a href="app-development-onepage.html">App Development Agency</a></li>
-                                    <li><a href="minimal-portfolio-onepage.html">Minimal Portfolio</a></li>
-                                    <li><a href="creative-agency-onepage.html">Creative Agency</a></li>
-                                    <li><a href="branding-agency-onepage.html">Branding Agency</a></li>
-                                    <li><a href="modern-agency-onepage.html">Modern Agency</a></li>
-                                    <li><a href="business-and-startup-onepage.html">Business & Startup</a></li>
-                                    <li><a href="graphic-studio-onepage.html">Graphic Studio</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <a href="<?= site_url(''); ?>">Home</a>
                     </li>
                     <li>
-                        <a href="#">Pages</a>
-                        <ul>
+                        <a href="<?= site_url('about'); ?>">About</a>
+                        <!-- <ul>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="why-us.html">Why Us</a></li>
                             <li><a href="team.html">Our Team</a></li>
@@ -267,49 +222,72 @@
                             <li><a href="shop-page.html">Shop Single</a> </li>
                             <li><a href="shop-details.html">Shop Details</a> </li>
                             <li><a href="shop-cart.html">Shop Cart</a> </li>
+                        </ul> -->
+                    </li>
+
+
+
+                    <!-- <li>
+                                <a href="#">Multi-Page Demo</a>
+                                <ul>
+                                    <li><a href="digital-agency.html">Digital Agency</a></li>
+                                    <li><a href="digital-agency-v2.html">Digital Agency V2</a></li>
+                                    <li><a href="digital-agency-glassmorphism.html">Digital Agency V3</a></li>
+                                    <li><a href="web-design-agency.html">Web Design Agency</a></li>
+                                    <li><a href="digital-marketing.html">Digital Marketing</a></li>
+                                    <li><a href="lead-generation.html">Lead Generation Agency</a></li>
+                                    <li><a href="landing-page-1.html">Landing Page V1</a></li>
+                                    <li><a href="landing-page-2.html">Landing Page V2</a></li>
+                                    <li><a href="freelance-portfolio.html">Freelance Portfolio</a></li>
+                                    <li><a href="app-development.html">App Development Agency</a></li>
+                                    <li><a href="minimal-portfolio.html">Minimal Portfolio</a></li>
+                                    <li><a href="creative-agency.html">Creative Agency</a></li>
+                                    <li><a href="branding-agency.html">Branding Agency</a></li>
+                                    <li><a href="modern-agency.html">Modern Agency</a></li>
+                                    <li><a href="business-and-startup.html">Business & Startup</a></li>
+                                    <li><a href="graphic-studio.html">Graphic Studio</a></li>
+                                </ul>
+                            </li> -->
+                    <li>
+                        <a href="<?= site_url('solusi'); ?>">Solusi dan Layanan</a>
+                        <ul>
+                            <li><a href="#">SISTEM SOLUTION</a></li>
+                            <li><a href="<?= site_url('jasaweb'); ?>">Jasa Pembuatan Website</a></li>
+                            <li><a href="<?= site_url('jasasistem'); ?>">Jasa Pembuatan Sistem</a></li>
+                            <li><a href="<?= site_url('jasamob'); ?>">Jasa Pembuatan Mobile Apps</a></li>
+                            <li><a href="#">DIGITAL SOLUTION</a></li>
+                            <li><a href="<?= site_url('jasaseo'); ?>">Jasa SEO Website</a></li>
+                            <li><a href="<?= site_url('intmarket'); ?>">Internet Marketing</a></li>
+                            <li><a href="<?= site_url('sosmedmanagement'); ?>">Sosial Media Management</a></li>
+                            <li><a href="<?= site_url('campaign'); ?>">Campaign Development</a></li>
+                            <li><a href="<?= site_url('boostersosmed'); ?>">Booster Social Media</a></li>
+                            <li><a href="<?= site_url('onlinerep'); ?>">Online Reputation Management</a></li>
+                            <li><a href="<?= site_url('buzzer'); ?>">Buzzer Management</a></li>
+                            <li><a href="<?= site_url('personalbrand'); ?>">Personal Branding</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">Shortcodes</a>
-                        <ul>
-                            <li><a href="pricing.html">Pricing</a></li>
-                            <li><a href="typography.html">Typography</a></li>
-                            <li><a href="button.html">Buttons</a></li>
-                            <li><a href="locations.html">Office Location</a></li>
-                            <li><a href="faq.html">FAQs</a> </li>
-                            <li><a href="tabs.html">Tabs</a></li>
-                            <li><a href="error.html">404 Page</a></li>
-                            <li><a href="gradients.html">Background Gradients</a></li>
-                            <li><a href="header-v1.html">Header v1</a></li>
-                            <li><a href="header-v2.html">Header v2</a></li>
-                            <li><a href="header-v3.html">Header v3</a></li>
-                            <li><a href="footer-design.html">Footer</a></li>
-                            <li><a href="hover-animation.html">Hover Animation</a></li>
-                            <li><a href="popup-modal.html">Popup Modal</a></li>
-                            <li><a href="lists.html">Lists</a></li>
-                            <li><a href="bootstrap-components.html">Bootstrap Components</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                        <ul>
+                </ul>
+                </li>
+                <li>
+                    <a href="<?= site_url('client'); ?>">Client</a>
+                    <!-- <ul>
                             <li><a href="portfolio.html">Portfolio Grid 1</a> </li>
                             <li><a href="portfolio-2.html">Portfolio Grid 2</a> </li>
                             <li><a href="portfolio-block.html">Portfolio Wide Block</a> </li>
                             <li><a href="portfolio-block-2.html">Portfolio Wide Block v2</a> </li>
                             <li><a href="portfolio-details.html">Portfolio Details</a> </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                        <ul>
+                        </ul> -->
+                </li>
+                <li>
+                    <a href="<?= site_url('contact'); ?>">Contact</a>
+                    <!-- <ul>
                             <li><a href="blog-grid-1.html">Blog Grid 1</a> </li>
                             <li><a href="blog-grid-2.html">Blog Grid 2</a> </li>
                             <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a> </li>
                             <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a> </li>
                             <li><a href="blog-single.html">Blog Single</a></li>
-                        </ul>
-                    </li>
+                        </ul> -->
+                </li>
                 </ul>
                 <ul class="bottom-nav">
                     <li class="prb">
