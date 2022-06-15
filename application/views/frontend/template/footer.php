@@ -3,8 +3,8 @@
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-4 col-sm-6  ftr-brand-pp">
-                <a class="navbar-brand mb30 mt30" href="#"> <img src="images/white-logo.png" alt="Logo" width="100" /></a>
-                <p>News letter dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Enter your email</p>
+                <a class="navbar-brand mb30 mt30" href="#"> <img src="<?= base_url('assets/'); ?>img/logo-baru-croyons.png" alt="Logo" class="img-fluid" alt="Logo" width="210" /></a>
+                <p>Tetap terhubung dan dapat berkomunikasi melalui sosial media pilihan anda berikut ini.</p>
                 <div class="ff-social-icons mt30">
                     <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
                     <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
@@ -15,17 +15,17 @@
             <div class="col-lg-3 col-sm-6">
                 <h5 class="mb30 mt30">Contact Us</h5>
                 <ul class="footer-address-list ftr-details">
-                    <li>
+                    <!-- <li>
                         <span><i class="fas fa-envelope"></i></span>
                         <p>Email <span> <a href="mailto:info@businessname.com">info@businessname.com</a></span></p>
-                    </li>
+                    </li> -->
                     <li>
                         <span><i class="fas fa-phone-alt"></i></span>
-                        <p>Phone <span> <a href="tel:+10000000000">+1 0000 000 000</a></span></p>
+                        <p>Mobile Number:<span> <a href="+6281314050080">+6281314050080</a></span></p>
                     </li>
                     <li>
                         <span><i class="fas fa-map-marker-alt"></i></span>
-                        <p>Address <span> 123 Business Centre London SW1A 1AA</span></p>
+                        <p>Address <span> Ruko Vanda V3, Jl. Palem Raja Raya Utama Palem Sari, Kota Tangerang, Banten</span></p>
                     </li>
                 </ul>
             </div>
@@ -45,32 +45,32 @@
                 <div class="instagram-post">
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-1.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-1.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-2.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-2.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-3.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-3.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-4.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-4.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-5.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-5.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                     <div class="thumb hover-scale">
                         <a href="#">
-                            <img src="images/portfolio/image-6.jpg" alt="instagram images" class="w-100">
+                            <img src="<?= base_url('assets/'); ?>images/portfolio/image-6.jpg" alt="instagram images" class="w-100">
                         </a>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
         <div class="row end-footer-">
             <div class="col-lg-6">
                 <div class="footer-copyrights-">
-                    <p>© 2020-2022. All Rights Reserved By <a href="https://themeforest.net/user/rajesh-doot/portfolio" target="blank">Rajesh Doot</a></p>
+                    <p>© 2018. Solusi IT Perusahaan Anda <a href="<?= site_url(''); ?>">Croyons</a></p>
                 </div>
             </div>
             <div class="col-lg-6">
