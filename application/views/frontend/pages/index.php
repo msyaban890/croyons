@@ -187,9 +187,9 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/branding.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Social Media Marketing</h4>
+                        <h4>Jasa SEO Website</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('jasa-seo-website'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -197,9 +197,9 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/development.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Branding & Identity</h4>
+                        <h4>Internet Marketing</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('internet-marketing'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -207,9 +207,9 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/app.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Performance Marketing</h4>
+                        <h4>Sosial Media Manegement</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('sosial-media-management'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -217,9 +217,9 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Instagram Growth</h4>
+                        <h4>Campaign Development</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('campaign'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -227,9 +227,9 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Online Branding</h4>
+                        <h4>Booster Sosial Media</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('booster-social-media'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
@@ -237,18 +237,42 @@
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
                         <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
-                        <h4>Video Marketing</h4>
+                        <h4>Online Reputation Management</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                        <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                        <a href="<?= site_url('onlinerep'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="-cta-btn mt70">
-            <!-- <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1s">
-                <p>Want to <span>kick start</span> your project right now?</p>
-                <a href="#" class="btn-main bg-btn4 lnk"> Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-            </div> -->
+            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="s-block up-hor ovr-base">
+                    <div class="nn-card-set">
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <h4>Infuencer Management</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="<?= site_url('influencer'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="s-block up-hor ovr-base">
+                    <div class="nn-card-set">
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <h4>Buzzer Management</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="<?= site_url('buzzer-management'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+                <div class="s-block up-hor ovr-base">
+                    <div class="nn-card-set">
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <h4>Personal Branding</h4>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <a href="<?= site_url('personalbrand'); ?>">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -256,30 +280,7 @@
 <!--Start statistics-->
 <div class="dg-statistics-section dg-bg--1 pb130 pt130 tilt3d">
     <div class="container">
-        <div class="row justify-content-center t-ctr">
-            <div class="col-lg-4 col-sm-6">
-                <div class="statistics">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="<?= base_url('assets/'); ?>images/icons/startup-w.svg" alt="years" class="img-fluid" />
-                    </div>
-                    <div class="statnumb">
-                        <span class="counter">15</span><span>+</span>
-                        <p>Year In Business</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-                <div class="statistics">
-                    <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="<?= base_url('assets/'); ?>images/icons/team-w.svg" alt="team" class="img-fluid" />
-                    </div>
-                    <div class="statnumb">
-                        <span class="counter">80</span><span>+</span>
-                        <p>Team Members</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <h1 class="text-center text-effect-1">Our Statistic</h1>
         <div class="row small t-ctr">
             <div class="col-lg-3 col-sm-6">
                 <div class="statistics">
@@ -330,7 +331,7 @@
 </div>
 <!--End statistics-->
 <!--Start Portfolio-->
-<section class="dg-portfolio-section dg-bg--2 pb130 pt130">
+<!-- <section class="dg-portfolio-section dg-bg--2 pb130 pt130">
     <div class="container">
         <div class="row justify-content-center ">
             <div class="col-lg-8">
@@ -409,7 +410,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--End Portfolio-->
 <!--Start Clients-->
 <section class="dg-clients-section dg-bg--1 pb130 pt130">
