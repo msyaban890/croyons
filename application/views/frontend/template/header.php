@@ -21,6 +21,7 @@
     <link href="<?= base_url('assets/'); ?>css/style.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/responsive.css" rel="stylesheet">
     <link href="<?= base_url('assets/'); ?>css/darkmode.css" rel="stylesheet">
+    <link href="<?= base_url('assets/'); ?>css/flatsome.css" rel="stylesheet">
 </head>
 
 <body class="dark-main f-weight active-dark">
@@ -33,7 +34,7 @@
     </div>
     <!--End Preloader -->
     <!--Start Header -->
-    <header class="nav-bg-b main-header navfix fixed-top menu-white">
+    <header class="nav-bg-b main-header navfix fixed-top menu-dark">
         <div class="container-fluid m-pad">
             <div class="menu-header">
                 <div class="dsk-logo"><a class="nav-brand" href="./">
@@ -46,24 +47,28 @@
                         <li class="nav-list onepge">
                             <a href="<?= site_url(''); ?>" class="menu-links">Home</a>
                         </li>
+
+                        <li class="sbmenu rpdropdown">
+
                         <li class="nav-list onepge">
+
                             <a href="<?= site_url('about'); ?>" class="menu-links">About</a>
-                            <!-- <div class="nx-dropdown">
+                            <div class="nx-dropdown menu-dorpdown">
                                 <div class="sub-menu-section">
                                     <div class="container">
                                         <div class="sub-menu-center-block">
-                                            <div class="sub-menu-column">
+                                            <div class="sub-menu-column smfull">
                                                 <ul>
-                                                    <li><a href="about.html">About Us</a></li>
-                                                    <li><a href="about-2.html">About Us V2</a></li>
+                                                    <li><a href="<?= site_url('team-kami'); ?>">About Us</a></li>
+                                                    <!-- <li><a href="about-2.html">About Us V2</a></li>
                                                     <li><a href="why-us.html">Why Us</a></li>
                                                     <li><a href="team.html">Our Team</a></li>
                                                     <li><a href="team-details.html">Team Single</a></li>
                                                     <li><a href="case-study.html">Case Study</a></li>
-                                                    <li><a href="case-study-details.html">Case Study Single</a></li>
+                                                    <li><a href="case-study-details.html">Case Study Single</a></li> -->
                                                 </ul>
                                             </div>
-                                            <div class="sub-menu-column">
+                                            <!-- <div class="sub-menu-column">
                                                 <ul>
                                                     <li><a href="mission-vision.html">Mission & Vision</a></li>
                                                     <li><a href="development-process.html">Development Process</a></li>
@@ -91,11 +96,11 @@
                                                     <li><a href="shop-details.html">Shop Details</a> </li>
                                                     <li><a href="shop-cart.html">Shop Cart</a> </li>
                                                 </ul>
-                                            </div>
+                                            </div> -->
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                         </li>
                         <li class="sbmenu">
                             <a href="<?= site_url('solusi'); ?>" class="menu-links">Solusi dan Layanan</a>
@@ -103,20 +108,44 @@
                                 <div class="sub-menu-section">
                                     <div class="container">
                                         <div class="sub-menu-center-block">
+
+                                            <div class="sub-menu-column ">
+                                                <div class="menuheading">SISTEM SOLUTION</div>
+                                                <ul>
+                                                    <li><a href="<?= site_url('jasa-pembuatan-mobile-apps'); ?>">Jasa Pembuatan Mobile Apps</a> </li>
+                                                    <li><a href="<?= site_url('jasa-pembuatan-web'); ?>">Jasa Pembuatan Website</a></li>
+                                                    <li><a href="<?= site_url('jasa-pembuatan-sistem'); ?>">Jasa Pembuatan Sistem</a></li>
+                                                </ul>
+
                                             <div class="sub-menu-column">
                                                 <!-- <ul>
                                                 </ul> -->
+
                                             </div>
-                                            <div class="sub-menu-column">
+                                            <div class="sub-menu-column ">
+                                                <div class="menuheading">DIGITAL SOLUTION</div>
                                                 <ul>
+
+                                                    <li><a href="<?= site_url('jasa-seo-website'); ?>">Jasa SEO Website</a></li>
+                                                    <li><a href="<?= site_url('campaign-development'); ?>">Campaign Development</a></li>
+                                                    <li><a href="<?= site_url('online-reputation-management'); ?>">Online Reputation Management</a></li>
+
                                                     <li><a href="#">SISTEM SOLUTION</a></li>
                                                     <li><a href="<?= site_url('jasamob'); ?>">Jasa Pembuatan Mobile Apps</a> </li>
                                                     <li><a href="<?= site_url('jasaweb'); ?>">Jasa Pembuatan Website</a></li>
                                                     <li><a href="<?= site_url('jasasistem'); ?>">Jasa Pembuatan Sistem</a></li>
+
                                                 </ul>
                                             </div>
-                                            <div class="sub-menu-column">
+                                            <div class="sub-menu-column ">
+                                                <div class="menuheading">&nbsp;</div>
                                                 <ul>
+
+                                                    <li><a href="<?= site_url('influencer-management'); ?>">Infuencer Management</a></li>
+                                                    <li><a href="<?= site_url('personal-branding'); ?>">Personal Branding</a></li>
+                                                    <li><a href="<?= site_url('sosial-media-management'); ?>">Sosial Media Manegement</a></li>
+
+
                                                     <li><a href="#">DIGITAL SOLUTION</a></li>
                                                     <li><a href="<?= site_url('jasaseo'); ?>">Jasa SEO Website</a></li>
                                                     <li><a href="<?= site_url('campaign'); ?>">Campaign Development</a></li>
@@ -124,15 +153,23 @@
                                                     <li><a href="<?= site_url('influencer'); ?>">Infuencer Management</a></li>
                                                     <li><a href="<?= site_url('personalbrand'); ?>">Personal Branding</a></li>
                                                     <li><a href="<?= site_url('sosmedmanagement'); ?>">Sosial Media Manegement</a></li>
+
                                                 </ul>
                                             </div>
-                                            <div class="sub-menu-column">
+                                            <div class="sub-menu-column ">
+                                                <div class="menuheading">&nbsp;</div>
                                                 <ul>
+
+                                                    <li><a href="<?= site_url('internet-marketing'); ?>">Internet Marketing</a> </li>
+                                                    <li><a href="<?= site_url('booster-social-media'); ?>">Booster Sosial Media</a></li>
+                                                    <li><a href="<?= site_url('buzzer-management'); ?>">Buzzer Management</a>
+
                                                     <br>
                                                     <br>
                                                     <li><a href="<?= site_url('intmarket'); ?>">Internet Marketing</a> </li>
                                                     <li><a href="<?= site_url('boostersosmed'); ?>">Booster Sosial Media</a></li>
                                                     <li><a href="<?= site_url('buzzer'); ?> gradients.html">Buzzer Management</a>
+
                                                     </li>
                                                 </ul>
                                             </div>
@@ -199,9 +236,15 @@
                     </li>
                     <li>
                         <a href="<?= site_url('about'); ?>">About</a>
+
+                        <ul>
+                            <li><a href="<?= site_url('team-kami'); ?>">Tim Kami</a></li>
+                            <!-- <li><a href="why-us.html">Why Us</a></li>
+
                         <!-- <ul>
                             <li><a href="about.html">About Us</a></li>
                             <li><a href="why-us.html">Why Us</a></li>
+
                             <li><a href="team.html">Our Team</a></li>
                             <li><a href="team-details.html">Team Single</a></li>
                             <li><a href="case-study.html">Case Study</a></li>
@@ -221,8 +264,13 @@
                             <li><a href="career.html">Careers</a> </li>
                             <li><a href="shop-page.html">Shop Single</a> </li>
                             <li><a href="shop-details.html">Shop Details</a> </li>
+
+                            <li><a href="shop-cart.html">Shop Cart</a> </li> -->
+                        </ul>
+
                             <li><a href="shop-cart.html">Shop Cart</a> </li>
                         </ul> -->
+
                     </li>
 
 
@@ -252,6 +300,20 @@
                         <a href="<?= site_url('solusi'); ?>">Solusi dan Layanan</a>
                         <ul>
                             <li><a href="#">SISTEM SOLUTION</a></li>
+
+                            <li><a href="<?= site_url('jasa-pembuatan-web'); ?>">Jasa Pembuatan Website</a></li>
+                            <li><a href="<?= site_url('jasa-pembuatan-sistem'); ?>">Jasa Pembuatan Sistem</a></li>
+                            <li><a href="<?= site_url('jasa-pembuatan-mobile-apps'); ?>">Jasa Pembuatan Mobile Apps</a></li>
+                            <li><a href="#">DIGITAL SOLUTION</a></li>
+                            <li><a href="<?= site_url('jasa-seo-website'); ?>">Jasa SEO Website</a></li>
+                            <li><a href="<?= site_url('internet-marketing'); ?>">Internet Marketing</a></li>
+                            <li><a href="<?= site_url('sosial-media-management'); ?>">Sosial Media Management</a></li>
+                            <li><a href="<?= site_url('campaign-development'); ?>">Campaign Development</a></li>
+                            <li><a href="<?= site_url('booster-social-media'); ?>">Booster Social Media</a></li>
+                            <li><a href="<?= site_url('online-reputation-management'); ?>">Online Reputation Management</a></li>
+                            <li><a href="<?= site_url('buzzer-management'); ?>">Buzzer Management</a></li>
+                            <li><a href="<?= site_url('personal-branding'); ?>">Personal Branding</a></li>
+
                             <li><a href="<?= site_url('jasaweb'); ?>">Jasa Pembuatan Website</a></li>
                             <li><a href="<?= site_url('jasasistem'); ?>">Jasa Pembuatan Sistem</a></li>
                             <li><a href="<?= site_url('jasamob'); ?>">Jasa Pembuatan Mobile Apps</a></li>
@@ -264,6 +326,7 @@
                             <li><a href="<?= site_url('onlinerep'); ?>">Online Reputation Management</a></li>
                             <li><a href="<?= site_url('buzzer'); ?>">Buzzer Management</a></li>
                             <li><a href="<?= site_url('personalbrand'); ?>">Personal Branding</a></li>
+
                         </ul>
                     </li>
                 </ul>

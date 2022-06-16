@@ -115,7 +115,7 @@
 </section>
 <!--End Hero-->
 <!--Start About-->
-<section class="about-dg- dg-bg--2 pb130 pt130">
+<!-- <section class="about-dg- dg-bg--2 pb130 pt130">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -149,8 +149,8 @@
             </div>
         </div>
     </div>
-</section>
-<section class="about-dg-2 dg-bg--1 pb130 pt130">
+</section> -->
+<!-- <section class="about-dg-2 dg-bg--1 pb130 pt130">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 v-center tilt-3d">
@@ -169,7 +169,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--End About-->
 <!--Start Service-->
 <section class="dg-service2 dg-bg--2 pb130 pt130 ">
@@ -186,7 +186,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".2s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/branding.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/branding.svg" alt="service" class="img-fluid" /></div>
                         <h4>Social Media Marketing</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -196,7 +196,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/development.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/development.svg" alt="service" class="img-fluid" /></div>
                         <h4>Branding & Identity</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -206,7 +206,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".6s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/app.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/app.svg" alt="service" class="img-fluid" /></div>
                         <h4>Performance Marketing</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -216,7 +216,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".8s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
                         <h4>Instagram Growth</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -226,7 +226,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
                         <h4>Online Branding</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -236,7 +236,7 @@
             <div class="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
                 <div class="s-block up-hor ovr-base">
                     <div class="nn-card-set">
-                        <div class="s-card-icon"><img src="images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
+                        <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/marketing.svg" alt="service" class="img-fluid" /></div>
                         <h4>Video Marketing</h4>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         <a href="javascript:void(0)">Learn More <i class="fas fa-chevron-right fa-icon"></i></a>
@@ -245,10 +245,10 @@
             </div>
         </div>
         <div class="-cta-btn mt70">
-            <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1s">
+            <!-- <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1s">
                 <p>Want to <span>kick start</span> your project right now?</p>
                 <a href="#" class="btn-main bg-btn4 lnk"> Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -260,7 +260,7 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="statistics">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/startup-w.svg" alt="years" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/startup-w.svg" alt="years" class="img-fluid" />
                     </div>
                     <div class="statnumb">
                         <span class="counter">15</span><span>+</span>
@@ -271,7 +271,7 @@
             <div class="col-lg-4 col-sm-6">
                 <div class="statistics">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/team-w.svg" alt="team" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/team-w.svg" alt="team" class="img-fluid" />
                     </div>
                     <div class="statnumb">
                         <span class="counter">80</span><span>+</span>
@@ -284,7 +284,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="statistics">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/deal-w.svg" alt="happy" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/deal-w.svg" alt="happy" class="img-fluid" />
                     </div>
                     <div class="statnumb">
                         <span class="counter">450</span>
@@ -295,7 +295,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="statistics">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/computers-w.svg" alt="project" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/computers-w.svg" alt="project" class="img-fluid" />
                     </div>
                     <div class="statnumb counter-number">
                         <span class="counter">48</span><span>k</span>
@@ -306,7 +306,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="statistics">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/worker-w.svg" alt="work" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/worker-w.svg" alt="work" class="img-fluid" />
                     </div>
                     <div class="statnumb">
                         <span class="counter">95</span><span>k</span>
@@ -317,7 +317,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="statistics mb0">
                     <div data-tilt data-tilt-max="20" data-tilt-speed="1000" class="statistics-img dg-bg2">
-                        <img src="images/icons/customer-service-w.svg" alt="support" class="img-fluid" />
+                        <img src="<?= base_url('assets/'); ?>images/icons/customer-service-w.svg" alt="support" class="img-fluid" />
                     </div>
                     <div class="statnumb">
                         <span class="counter">24</span><span>/</span><span class="counter">7</span>
@@ -344,7 +344,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item wow fadeInUp" data-wow-delay=".2s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-1.jpg" alt="portfolio" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-1.jpg" alt="portfolio" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Creative App</a></h4>
@@ -355,7 +355,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item  wow fadeInUp" data-wow-delay=".4s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-2.jpg" alt="image" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-2.jpg" alt="image" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Brochure Design</a></h4>
@@ -366,7 +366,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item  wow fadeInUp" data-wow-delay=".6s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-3.jpg" alt="image" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-3.jpg" alt="image" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Ecommerce Development</a></h4>
@@ -377,7 +377,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item  wow fadeInUp" data-wow-delay=".8s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-4.jpg" alt="image" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-4.jpg" alt="image" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Icon Pack</a></h4>
@@ -388,7 +388,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item  wow fadeInUp" data-wow-delay="1s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-5.jpg" alt="image" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-5.jpg" alt="image" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Smart Watch</a></h4>
@@ -399,7 +399,7 @@
             <div class="col-lg-4 col-sm-6 single-card-item  wow fadeInUp" data-wow-delay="1.2s">
                 <div class="isotope_item h-scl-">
                     <div class="item-image h-scl-base">
-                        <a href="#"><img src="images/portfolio/image-6.jpg" alt="image" class="img-fluid" /> </a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/portfolio/image-6.jpg" alt="image" class="img-fluid" /> </a>
                     </div>
                     <div class="item-info">
                         <h4><a href="#">Brochure Design</a></h4>
@@ -428,69 +428,69 @@
                     <div class="client-logoset">
                         <ul class="row text-center clearfix">
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".2s">
-                                <div class="brand-logo"><img src="images/client/logo1.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo1.png" alt="clients" class="img-fluid"></div>
                                 <p>Shutter, USA</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".4s">
-                                <div class="brand-logo"><img src="images/client/logo2.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo2.png" alt="clients" class="img-fluid"></div>
                                 <p>Hipster, USA</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".6s">
-                                <div class="brand-logo"><img src="images/client/logo3.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo3.png" alt="clients" class="img-fluid"></div>
                                 <p>Happy, USA</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".8s">
-                                <div class="brand-logo"><img src="images/client/logo4.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo4.png" alt="clients" class="img-fluid"></div>
                                 <p>Opera Tours, USA</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1s">
-                                <div class="brand-logo"><img src="images/client/logo5.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo5.png" alt="clients" class="img-fluid"></div>
                                 <p>Royale Stone, UK</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1.2s">
-                                <div class="brand-logo"><img src="images/client/logo6.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo6.png" alt="clients" class="img-fluid"></div>
                                 <p>QTP, Australia</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1.4s">
-                                <div class="brand-logo"><img src="images/client/logo7.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo7.png" alt="clients" class="img-fluid"></div>
                                 <p>PAPA, Malaysia</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1.6s">
-                                <div class="brand-logo"><img src="images/client/logo8.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo8.png" alt="clients" class="img-fluid"></div>
                                 <p>Coffee, Australia</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1.8s">
-                                <div class="brand-logo"><img src="images/client/logo9.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo9.png" alt="clients" class="img-fluid"></div>
                                 <p>Bakery, India</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="2s">
-                                <div class="brand-logo"><img src="images/client/logo10.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo10.png" alt="clients" class="img-fluid"></div>
                                 <p>Iconico, India</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="2.2s">
-                                <div class="brand-logo"><img src="images/client/logo11.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo11.png" alt="clients" class="img-fluid"></div>
                                 <p>Tom N Jerry, UK</p>
                             </li>
                             <li class="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="2.4s">
-                                <div class="brand-logo"><img src="images/client/logo12.png" alt="clients" class="img-fluid"></div>
+                                <div class="brand-logo"><img src="<?= base_url('assets/'); ?>images/client/logo12.png" alt="clients" class="img-fluid"></div>
                                 <p>Arch, India</p>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="-cta-btn mt80">
+            <!-- <div class="-cta-btn mt80">
                 <div class="free-cta-title v-center wow zoomInDown" data-wow-delay="1.2s">
                     <p>We <span>Promise.</span> We <span>Deliver.</span></p>
                     <a href="#" class="btn-main bg-btn4 lnk">Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 <!--End Clients-->
 <!--Start Testinomial-->
-<section class="dg-testinomial-section dg-bg--2 pb130 pt130">
+<!-- <section class="dg-testinomial-section dg-bg--2 pb130 pt130">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -561,7 +561,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!--End Testinomial-->
 <!--Start Blogs-->
 <section class="blogs-section dg-bg--1 -dg-blog pb130 pt130">
@@ -578,7 +578,7 @@
             <div class="col-lg-4 mt30">
                 <div class="single-blog-post- up-hor">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid" /></a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Nodejs</a></span>
                             <span class="posted-on-">
@@ -611,7 +611,7 @@
             <div class="col-lg-4 mt30">
                 <div class="single-blog-post- up-hor">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid" /></a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Laravel</a></span>
                             <span class="posted-on-">
@@ -644,7 +644,7 @@
             <div class="col-lg-4 mt30">
                 <div class="single-blog-post- up-hor">
                     <div class="single-blog-img-">
-                        <a href="#"><img src="images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid" /></a>
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
                             <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Mobile Application</a></span>
                             <span class="posted-on-">
@@ -687,7 +687,7 @@
                     <span class="text-effect-1">LET'S WORK TOGETHER</span>
                     <h2>Let’s Create Big Stories Together</h2>
                     <p class="mt20">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
-                    <a href="#" class="btn-main bg-btn4 lnk mt40">Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                    <a href="<?= site_url('contact'); ?>" class="btn-main bg-btn4 lnk mt40">Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
                 </div>
             </div>
         </div>

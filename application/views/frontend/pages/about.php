@@ -113,15 +113,15 @@
         <div class="row">
             <div class="col-lg-6 v-center">
                 <div class="about-image">
-                    <img src="images/about/company-about.png" alt="about us" class="img-fluid" />
+                    <img src="<?= base_url('assets/'); ?>images/about/company-about.png" alt="about us" class="img-fluid" />
                 </div>
             </div>
             <div class="col-lg-6">
                 <div class="common-heading text-l ">
                     <span>About Us</span>
-                    <h2>About Agency</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. </p>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. is simply dummy text of the printing and typesetting industry.</p>
+                    <h2>APA ITU CROYONS?</h2>
+                    <p>Kami adalah perusahaan berbasis IT. Fokus utama kami adalah memberikan layanan solusi IT untuk perusahaan, perseorangan atau lembaga lainnya. Kami memiliki i para programmer muda profesional yang memiliki passion yang sama untuk mengembangkan industri digital. Fokus lain kami adalah pembuatan / pengembangan software baik menggunakan platfrom Web Based, maupun mobile apps seperti Android dan IOS. Selain itu, kami juga mengembangkan beberapa produk yang dapat langsung anda gunakan untuk mengembangkan, membantu menjalankan proses bisnis yang ada di perusahaan anda. </p>
+                    <p>Untuk informasi layanan lebih detail dan penawaran terbaik silahkan kontak kami melalui telepon, SMS ataupun whatsapp, dan kami akan memastikan bahwa kebutuhan Anda terpenuhi. Kami tidak menawarkan jasa murah, namun kami menawarkan kualitas, pelayanan, jaminan penyelesaian pekerjaan, dan layanan maintenance (managed service) jangka panjang.</p>
                 </div>
                 <div class="row in-stats small about-statistics">
                     <div class="col-lg-4 col-sm-4">
@@ -161,35 +161,37 @@
             <div class="col-lg-6">
                 <div class="common-heading">
                     <span>We Are Awesome</span>
-                    <h2 class="mb30">Why Choose Us</h2>
+                    <h2 class="mb30">KENAPA HARUS CROYONS?</h2>
+                    <p>Banyak perusahaan yang mencari solusi IT terbaik untuk meningkatkan bisnis mereka dan bekerjasama dengan Croyons.
+                        Inilah beberapa alasan kenapa anda harus memilih Croyons?</p>
                 </div>
             </div>
         </div>
         <div class="row upset">
             <div class="col-lg-3 col-sm-6 mt30">
                 <div class="s-block up-hor">
-                    <div class="s-card-icon"><img src="images/icons/research.svg" alt="service" class="img-fluid" /></div>
+                    <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/research.svg" alt="service" class="img-fluid" /></div>
                     <h4>Reasearch and Analysis</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mt30">
                 <div class="s-block up-hor">
-                    <div class="s-card-icon"><img src="images/icons/chat.svg" alt="service" class="img-fluid" /></div>
+                    <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/chat.svg" alt="service" class="img-fluid" /></div>
                     <h4>Negotiation and power</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mt30">
                 <div class="s-block up-hor">
-                    <div class="s-card-icon"><img src="images/icons/monitor.svg" alt="service" class="img-fluid" /></div>
+                    <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/monitor.svg" alt="service" class="img-fluid" /></div>
                     <h4>Creative and innovative solutions</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6 mt30">
                 <div class="s-block up-hor">
-                    <div class="s-card-icon"><img src="images/icons/trasparency.svg" alt="service" class="img-fluid" /></div>
+                    <div class="s-card-icon"><img src="<?= base_url('assets/'); ?>images/icons/trasparency.svg" alt="service" class="img-fluid" /></div>
                     <h4>Trasparency and ease of work</h4>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
@@ -198,3 +200,135 @@
     </div>
 </section>
 <!--End why-choose-->
+
+<!--Start Blogs-->
+<section class="blogs-section pb80 pt80">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="common-heading">
+                    <span>Blogs</span>
+                    <h2 class="mb20">Latest Stories</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mt30">
+                <div class="single-blog-post- up-hor shdo">
+                    <div class="single-blog-img-">
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid" /></a>
+                        <div class="entry-blog-post dg-bg2">
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Nodejs</a></span>
+                            <span class="posted-on-">
+                                <a href="#"><i class="fas fa-clock"></i> Sep 23, 2020</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content-tt">
+                        <div class="single-blog-info-">
+                            <h4><a href="<?= site_url('blog'); ?>">Everything You Need To Know About Nodejs!</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="post-social">
+                            <div class="ss-inline-share-wrapper ss-hover-animation-fade ss-inline-total-counter-left ss-left-inline-content ss-small-icons ss-with-spacing ss-circle-icons ss-without-labels">
+                                <div class="ss-inline-share-content">
+                                    <div class="ss-social-icons-container">
+                                        <a href="javascript:void(0)">Shares</a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fas fa-envelope"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook-messenger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt30">
+                <div class="single-blog-post- up-hor shdo">
+                    <div class="single-blog-img-">
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid" /></a>
+                        <div class="entry-blog-post dg-bg2">
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Laravel</a></span>
+                            <span class="posted-on-">
+                                <a href="#"><i class="fas fa-clock"></i> Sep 24, 2020</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content-tt">
+                        <div class="single-blog-info-">
+                            <h4><a href="<?= site_url('blog'); ?>">Exploring the Key Features of Laravel 7 Framework</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="post-social">
+                            <div class="ss-inline-share-wrapper ss-hover-animation-fade ss-inline-total-counter-left ss-left-inline-content ss-small-icons ss-with-spacing ss-circle-icons ss-without-labels">
+                                <div class="ss-inline-share-content">
+                                    <div class="ss-social-icons-container">
+                                        <a href="javascript:void(0)">Shares</a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fas fa-envelope"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook-messenger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mt30">
+                <div class="single-blog-post- up-hor shdo">
+                    <div class="single-blog-img-">
+                        <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid" /></a>
+                        <div class="entry-blog-post dg-bg2">
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Mobile Application</a></span>
+                            <span class="posted-on-">
+                                <a href="#"><i class="fas fa-clock"></i> Sep 25, 2020</a>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="blog-content-tt">
+                        <div class="single-blog-info-">
+                            <h4><a href="<?= site_url('blog'); ?>">Best Technology for Mobile Application Development</a></h4>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                        <div class="post-social">
+                            <div class="ss-inline-share-wrapper ss-hover-animation-fade ss-inline-total-counter-left ss-left-inline-content ss-small-icons ss-with-spacing ss-circle-icons ss-without-labels">
+                                <div class="ss-inline-share-content">
+                                    <div class="ss-social-icons-container">
+                                        <a href="javascript:void(0)">Shares</a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-twitter"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-linkedin"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fas fa-envelope"></i></a>
+                                        <a href="javascript:void(0)" target="blank"><i class="fab fa-facebook-messenger"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End Blogs-->
+<!--Start CTA-->
+<section class="-cta-section dg-bg--2 dg-cta-sec pb130 pt130">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="common-heading-2">
+                    <span class="text-effect-1">LET'S WORK TOGETHER</span>
+                    <h2>Let’s Create Big Stories Together</h2>
+                    <p class="mt20">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.</p>
+                    <a href="#" class="btn-main bg-btn4 lnk mt40">Request a proposal<i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--End CTA-->
