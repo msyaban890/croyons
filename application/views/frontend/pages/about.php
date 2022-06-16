@@ -218,7 +218,7 @@
                     <div class="single-blog-img-">
                         <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-1.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
-                            <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Nodejs</a></span>
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Nodejs</a></span>
                             <span class="posted-on-">
                                 <a href="#"><i class="fas fa-clock"></i> Sep 23, 2020</a>
                             </span>
@@ -226,7 +226,7 @@
                     </div>
                     <div class="blog-content-tt">
                         <div class="single-blog-info-">
-                            <h4><a href="#">Everything You Need To Know About Nodejs!</a></h4>
+                            <h4><a href="<?= site_url('blog'); ?>">Everything You Need To Know About Nodejs!</a></h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                         <div class="post-social">
@@ -251,7 +251,7 @@
                     <div class="single-blog-img-">
                         <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-2.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
-                            <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Laravel</a></span>
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Laravel</a></span>
                             <span class="posted-on-">
                                 <a href="#"><i class="fas fa-clock"></i> Sep 24, 2020</a>
                             </span>
@@ -259,7 +259,7 @@
                     </div>
                     <div class="blog-content-tt">
                         <div class="single-blog-info-">
-                            <h4><a href="#">Exploring the Key Features of Laravel 7 Framework</a></h4>
+                            <h4><a href="<?= site_url('blog'); ?>">Exploring the Key Features of Laravel 7 Framework</a></h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                         <div class="post-social">
@@ -284,7 +284,7 @@
                     <div class="single-blog-img-">
                         <a href="#"><img src="<?= base_url('assets/'); ?>images/blog/blog-dg-3.jpg" alt="girl" class="img-fluid" /></a>
                         <div class="entry-blog-post dg-bg2">
-                            <span class="bypost-"><a href="#"><i class="fas fa-tag"></i> Mobile Application</a></span>
+                            <span class="bypost-"><a href="<?= site_url('blog'); ?>"><i class="fas fa-tag"></i> Mobile Application</a></span>
                             <span class="posted-on-">
                                 <a href="#"><i class="fas fa-clock"></i> Sep 25, 2020</a>
                             </span>
@@ -292,7 +292,7 @@
                     </div>
                     <div class="blog-content-tt">
                         <div class="single-blog-info-">
-                            <h4><a href="#">Best Technology for Mobile Application Development</a></h4>
+                            <h4><a href="<?= site_url('blog'); ?>">Best Technology for Mobile Application Development</a></h4>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                         </div>
                         <div class="post-social">
