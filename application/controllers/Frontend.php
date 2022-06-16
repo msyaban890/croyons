@@ -24,7 +24,7 @@ class Frontend extends CI_Controller
 	public function jasaseo()
 	{
 		$this->load->view('frontend/template/header');
-		$this->load->view('frontend/pages/solusi');
+		$this->load->view('frontend/pages/jasaseo');
 		$this->load->view('frontend/template/footer');
 	}
 	public function intmarket()
@@ -109,6 +109,12 @@ class Frontend extends CI_Controller
 	{
 		$this->load->view('frontend/template/header');
 		$this->load->view('frontend/pages/team');
+		$this->load->view('frontend/template/footer');
+	}
+	public function blog()
+	{
+		$this->load->view('frontend/template/header');
+		$this->load->view('frontend/pages/blog');
 		$this->load->view('frontend/template/footer');
 	}
 }
