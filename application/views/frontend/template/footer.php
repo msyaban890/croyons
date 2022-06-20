@@ -25,7 +25,8 @@
                     </li>
                     <li>
                         <span><i class="fas fa-map-marker-alt"></i></span>
-                        <p>Address <span> Ruko Vanda V3, Jl. Palem Raja Raya Utama Palem Sari, Kota Tangerang, Banten</span></p>
+                        <p>Address <span>Marketing Office : Jl. Sunan Ngampel No.133B, Melawai Jakarta Selatan
+                                Head Office : Ruko Vanda V3, Jl. Palem Raja Raya Utama Palem Sari, Kota Tangerang, Banten </span></p>
                     </li>
                 </ul>
             </div>
@@ -33,6 +34,7 @@
                 <h5 class="mb30 mt30">Company</h5>
                 <ul class="footer-address-list link-hover">
                     <li><a href="get-quote.html">Contact</a></li>
+                    <li><a href="<?= site_url('service'); ?>">Solusi dan Layanan</a></li>
                     <li><a href="javascript:void(0)">Customer's FAQ</a></li>
                     <li><a href="javascript:void(0)">Refund Policy</a></li>
                     <li><a href="javascript:void(0)">Privacy Policy</a></li>
