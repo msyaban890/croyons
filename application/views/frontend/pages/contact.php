@@ -140,7 +140,8 @@
                             <i class="fas fa-map-marker"></i>
                         </div>
                         <div class="text pl-4">
-                            <p><span>Address:</span>Ruko Vanda V3, Jl. Palem Raja Raya Utama Palem Sari, Kota Tangerang, Banten
+                            <p><span>Address:</span>Marketing Office : Jl. Sunan Ngampel No.133B, Melawai Jakarta Selatan
+                                Head Office : Ruko Vanda V3, Jl. Palem Raja Raya Utama Palem Sari, Kota Tangerang, Banten
                             </p>
                         </div>
                     </div>
